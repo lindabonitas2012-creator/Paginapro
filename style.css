@@ -1,0 +1,76 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 20px 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    background-image: url('fondopro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 214, 220);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    width: fit-content;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.boton {
+    background-color: rgb(254, 70, 134);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton1 {
+    background-color: rgb(254, 70, 134);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gif {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.gif2 {
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.imagenpro {
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
